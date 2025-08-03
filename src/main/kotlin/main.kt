@@ -10,6 +10,9 @@ import javafx.stage.Stage
 import model.TimerData
 import view.TimerView
 
+fun hello() {
+
+}
 class TimerApp : Application(), TimerView {
     private val controller = TimerController(this)
     private val timeLabel = Label("00:00").apply { style = "-fx-font-size: 36;" }
